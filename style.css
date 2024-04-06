@@ -56,7 +56,7 @@ a{
     width: 22%;
 }
 .logo{
-    background-image: url("/assets/Incredible-India-Logo.png");
+    background-image: url("./assets/Incredible-India-Logo.png");
     background-size:cover;
     height: 110%;
     width: 110%;
@@ -88,7 +88,7 @@ select {
 /*Hero section*/
 
 .hero-section{
-    background-image: url("/assets/hero.jpeg");
+    background-image: url("./assets/hero.jpeg");
     opacity: 0.8;
     background-size: cover;
     height: 80vh;
@@ -144,7 +144,7 @@ select {
     display: none;
 }
 .oldImg{
-    background-image: url("/assets/Monuments-Varanasi.jpg");
+    background-image: url("./assets/Monuments-Varanasi.jpg");
     background-size: cover;
     border: 1px solid black;
     opacity: 0.8;

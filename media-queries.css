@@ -1,0 +1,770 @@
+@media screen and (max-width:1024px) {
+    .nav-icons{
+        position: absolute;
+        background-color:  rgb(107, 108, 109);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        top: 100%;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        padding-top: 50px;
+        left: -120%;
+        text-align: center;
+    }
+    .nav-icons ul{
+        font-size: 2rem;
+        flex-direction: column;
+    }
+    .nav-icons select{
+        background-color:  rgba(107, 108, 109, 0.466);
+    }
+    .nav-menu{
+        display: block;
+        margin-left: 100px;
+    }
+    .nav-icons.active{
+        left: 0;
+    }
+    .nav-logo{
+        align-items: center;
+        width: 30%;
+    }
+    .search{
+        flex-wrap: nowrap;
+        margin-left: 200px;
+    }
+    .hero-section{
+        opacity: 1;
+    }
+    .hero-msg{
+        justify-content: center;
+        align-items: center;
+    }
+    .jar{
+        width: 30%;
+    }
+    .jar img{
+        width: 230px;
+        height: 230px;
+    }
+    .exp1-img a img{
+        width: 170px;
+    }
+    .exp2-img a img{
+        width: 170px;
+    }
+    .exp3-img a img{
+        width: 170px;
+    }
+    .foot-panel1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .state-tour{
+        margin-left: 50px;
+    }
+    .state2{
+        margin-left: 30px;
+    }
+    .state3{
+        margin-left: 30px;
+    }
+    .ut-tour{
+        margin-left: 40px;
+    }
+    .foot-panel3 img{
+        margin-bottom: 5px;
+    }  
+    .foot-panel3 p{
+        width: 800px;
+    } 
+}
+@media screen  and (max-width:768px) {
+    .nav-menu{
+        margin-left: 50px;
+    }
+    .nav-logo{
+        width: 30%;
+        height: 140%;
+    }
+    .nav-icons{
+        position: absolute;
+        background-color:  rgb(107, 108, 109);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        top: 100%;
+        width: 100%;
+        height: 150px;
+        left: -120%;
+        text-align: center;
+    }
+    .nav-icons ul{
+        font-size: 1.5rem;
+    }
+    .search{
+        margin-left: 120px;
+    }
+    .hero-section{
+        height: 500px;
+    }
+    #msg1{
+        font-size: 3.5rem;
+    }
+    #msg2{
+        font-size: 1.6rem;
+    }
+    .hero-msg{
+        margin-top: 60px;
+    }
+    .jar{
+        height: 430px;
+    }
+    .jar1-img img{
+        height: 230px;
+        width: 180px;
+        margin: 25px;
+    }
+    .jar2-img img{
+        height: 230px;
+        width: 180px;
+        margin: 25px;
+    }
+    .jar3-img img{
+        height: 230px;
+        width: 180px;
+        margin: 25px;
+    }
+    .jar4-img img{
+        height: 230px;
+        width: 180px;
+        margin: 25px;
+    }
+    .exp1{
+        width: 230px;
+    }
+    .exp1-img a img{
+        width: 160px;
+        margin-left: 32px;
+        margin-right: 0;
+    }
+    .exp2{
+        width: 230px;
+    }
+    .exp2-img a img{
+        width: 160px;
+        margin-left: 32px;
+        margin-right: 0;
+    }
+    .exp3{
+        width: 230px;
+    }
+    .exp3-img a img{
+        width: 160px;
+        margin-left: 32px;
+        margin-right: 0;
+    }
+    .contact-dets{
+        margin-top: 30px;
+        margin-right: 63%;
+    }
+    .foot-panel2{
+        height: 950px;
+    }
+    .foot3-logo{
+        width: 90%;
+    }
+    .foot3-logo hr{
+        width: 650px;
+    }
+}
+@media  screen and (max-width:425px) {
+   .navbar{
+    height: 20px;
+    width: 100%;
+    margin-right: 10px;
+   }
+   .nav-menu{
+    margin-left: 30px;
+   }
+   .search{
+    margin-left: 40px;
+   }
+   .nav-logo{
+    width: 170px;
+    height: 150%;
+   }
+   .nav-icons{
+    margin-top: 0px;
+    height: 80px;
+    padding-top: 10px;
+   }
+   .nav-icons i{
+    font-size: 1rem;
+   }
+   .nav-icons ul li{
+    font-size: 1rem;
+   }
+   .hero-section{
+    margin-top: 0px;
+    height: 220px;
+    width: 400px;
+   }
+   .hero-msg{
+    padding-top: 60px;
+   }
+   #msg1{
+    font-size: 1.3rem;
+   }
+   #msg2{
+    font-size: 0.9rem;
+   }
+   .hero-text{
+    margin-top: 20px;
+    height: 10px;
+    font-size: 1.1rem;
+   }
+   .explore-section{
+    margin-top: 20px;
+   }
+   .explore-head{
+    font-size: 1.4rem;
+   }
+   .mybox p{
+    text-align: justify;
+    font-size: 1rem;
+   }
+   .oldImg{
+      height: 220px;
+   }
+   .att-head1{
+    font-size: 1.5rem;
+   }
+   .att-head2{
+    font-size: 1rem;
+   }
+   .jar1{
+    width: 160px;
+    height: 300px;
+   }
+   .jar1-img img{
+    height: 150px;
+    width: 120px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .jar1-text{
+    margin-top: 5px;
+    padding: 6px;
+   }
+   .jar1-text h2{
+    font-size: 1.1rem;
+   }
+   .jar1-text p{
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 18px;
+    word-spacing: 0;
+   }
+   .jar2{
+    width: 160px;
+    height: 300px;
+   }
+   .jar2-img img{
+    height: 150px;
+    width: 120px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .jar2-text{
+    margin-top: 5px;
+    padding: 6px;
+   }
+   .jar2-text h2{
+    font-size: 1.1rem;
+   }
+   .jar2-text p{
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 18px;
+    word-spacing: 0;
+   }
+   .jar3{
+    width: 160px;
+    height: 300px;
+   }
+   .jar3-img img{
+    height: 150px;
+    width: 120px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .jar3-text{
+    margin-top: 5px;
+    padding: 6px;
+   }
+   .jar3-text h2{
+    font-size: 1.1rem;
+   }
+   .jar3-text p{
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 15px;
+    word-spacing: 0;
+   }
+   .jar4{
+    width: 160px;
+    height: 300px;
+   }
+   .jar4-img img{
+    height: 150px;
+    width: 120px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .jar4-text{
+    margin-top: 5px;
+    padding: 6px;
+   }
+   .jar4-text h2{
+    font-size: 1.1rem;
+   }
+   .jar4-text p{
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 15px;
+    word-spacing: 0;
+   }
+   .jar5{
+    width: 160px;
+    height: 300px;
+   }
+   .jar5-img img{
+    height: 150px;
+    width: 120px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .jar5-text{
+    margin-top: 5px;
+    padding: 6px;
+   }
+   .jar5-text h2{
+    font-size: 1.1rem;
+   }
+   .jar5-text p{
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 15px;
+    word-spacing: 0;
+   }
+   .exp-head{
+    font-size: 1.4rem;
+   }   
+   .exp-head2{
+    font-size: 1rem;
+    word-spacing: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .exp1{
+    height: 200px;
+    width: 400px;
+   }
+   .exp1-img a img{
+    height: 125px;
+    width: 330px;
+   }
+   .exp2{
+    height: 200px;
+    width: 400px;
+   }
+   .exp2-img a img{
+    height: 125px;
+    width: 330px;
+   }
+   .exp3{
+    height: 200px;
+    width: 400px;
+   }
+   .exp3-img a img{
+    height: 125px;
+    width: 330px;
+   }
+   .location iframe{
+    width: 340px;
+    height: 200px;
+   }
+   .mode1-text{
+    text-align: justify;
+   }
+   .mode2-text{
+    text-align: justify;
+   }
+   .mode3-text{
+    text-align: justify;
+   }
+   .foot-panel1{
+    height: 200px;
+    margin-top: 30px;
+   }
+   .foot-panel1 a img{
+     width: 70px;
+     height: 40px;
+   }
+   .foot-panel1 a{
+    width: 70px;
+    height: 40px;
+   }
+   .state-tour{
+    margin-left: 20px;
+   }
+   .foot-panel2{
+    height: 1500px;
+   }
+   .state-tour-div2 ul li a{
+    margin-left: 80px;
+   }
+   .ut-tour{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 250px;
+   }
+   .foot3-logo{
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 350px;
+   }
+   .foot3-logo p{
+    text-align: justify;
+   }
+   .foot3-logo hr{
+    width: 390px;
+   }
+   .foot4-one{
+    width: 425px;
+    margin-top: 20px;
+   }
+   .foot4-one a{
+    font-size: 0.8rem;
+    margin-right: 20px;
+   }
+   .foot4-two p{
+    width: 360px;
+    margin-left: 20px;
+   }
+}
+@media screen and (max-width:375px) {
+    .nav-menu{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 0.9rem;
+    } 
+    .search{
+        font-size: 1rem;
+        margin-left: 70px;
+    }
+    .language{
+        width: 50px;
+    }
+    .language i{
+        margin-left: 15px;
+    }
+    .hero-section{
+        margin-top: 10px;
+        width: 350px;
+        height: 200px;
+    }  
+    .hero-msg{
+        margin-top: 20px;
+    }
+    .hero-text{
+        font-size: 1.1rem;
+    }
+    .att-head2{
+        margin-left:10px ;
+    }
+    .exp1{
+        height: 190px;
+        width: 330px;
+    }
+    .exp1-img{
+        height: 100px;
+    }
+    .exp1-img a img{
+        height: 100px;
+        width: 280px;
+        margin-left: 25px;
+    }
+    .exp1-text a{
+        font-size: 1.2rem;
+    }
+    .exp2{
+        height: 190px;
+        width: 330px;
+    }
+    .exp2-img{
+        height: 100px;
+    }
+    .exp2-img a img{
+        height: 100px;
+        width: 280px;
+        margin-left: 25px;
+    }
+    .exp2-text a{
+        font-size: 1.2rem;
+    }
+    .exp3{
+        height: 190px;
+        width: 330px;
+    }
+    .exp3-img{
+        height: 100px;
+    }
+    .exp3-img a img{
+        height: 100px;
+        width: 280px;
+        margin-left: 25px;
+    }
+    .exp3-text a{
+        font-size: 1.2rem;
+    }
+    .foot-panel1{
+        width: 360px;
+    }
+    .foot-panel2{
+        height: 1600px;
+    }
+    .foot3-logo p{
+        width: 300px;
+    }
+    .foot3-logo hr{
+        width: 340px;
+    }
+    .foot4-one{
+        width: 350px;
+    }
+    .foot4-one a{
+        margin-right: 5px;
+    }
+    .foot4-two p{
+        margin-left: 0;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:320px) {
+    .navbar{
+        margin-top: 15px;
+    }
+    .logo{
+        height: 25px;
+        width: 140px;
+        margin-top: 5px;
+    }
+    .nav-menu{
+        font-size: 0.7rem;
+        height: 10px;
+    }
+    .search{
+        margin-left: 40px;
+        margin-top: 4px;
+    }
+    .hero-section{
+        width: 300px;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .hero-text p{
+        font-size: 0.9rem;
+    }
+    .explore-head p{
+        font-size: 1.3rem;
+    }
+    .mybox p{
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    .oldImg{
+        height: 180px;
+        margin-top: 10px;
+    }
+    .att-head{
+        margin-top: 10px;
+    }
+    .att-head1 p{
+        font-size: 1.3rem;
+    }
+    .att-head2 p{
+        font-size: 0.9rem;
+    }
+    .jar1{
+        height: 242px;
+        width: 140px;
+    }
+    .jar1-img a img{
+        height: 115px;
+        width: 100px;
+    }
+    .jar1-text p{
+        font-size: 0.7rem;
+    }
+    .jar2{
+        height: 242px;
+        width: 140px;
+    }
+    .jar2-img a img{
+        height: 115px;
+        width: 100px;
+    }
+    .jar2-text{
+        line-height: 14px;
+    }
+    .jar2-text h2{
+        width: 121px;
+        font-size: 0.9rem;
+        height: 28px;
+    }   
+    .jar2-text p{
+        font-size: 0.7rem;
+    }
+    .jar3{
+        height: 242px;
+        width: 140px;
+    }
+    .jar3-img a img{
+        height: 115px;
+        width: 100px;
+    }
+    .jar3-text p{
+        font-size: 0.7rem;
+    }
+    .jar4{
+        height: 242px;
+        width: 140px;
+    }
+    .jar4-img a img{
+        height: 115px;
+        width: 100px;
+    }
+    .jar4-text p{
+        font-size: 0.7rem;
+    }
+    .jar5{
+        height: 242px;
+        width: 140px;
+    }
+    .jar5-img a img{
+        height: 115px;
+        width: 100px;
+    }
+    .jar5-text p{
+        font-size: 0.7rem;
+    }
+    .exp-head2{
+        word-spacing: 2px;
+    }
+    .exp1{
+        width: 305px;
+    }
+    .exp1-img a img{
+        width: 260px;
+    }
+    .exp2{
+        width: 305px;
+    }
+    .exp2-img a img{
+        width: 260px;
+    }
+    .exp3{
+        width: 305px;
+    }
+    .exp3-img a img{
+        width: 260px;
+    }
+    .location-h p{
+        font-size: 1.4rem;
+    }
+    .location-h2 p{
+        font-size: 0.9rem;
+    }
+    .location iframe{
+        width: 300px;
+        height: 150px;
+    }
+    .mode-head{
+        margin-top: 10px;
+    }
+    .mode-head p{
+        font-size: 1.4rem;
+    }
+    #mode1-icon{
+        margin-top: 0;
+        font-size: 2.3rem;
+    }
+    .mode1-head{
+        font-size: 1.4rem;
+    }
+    .mode1-text{
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+    .mode1{
+        height: 340px;
+    }
+    #mode2-icon{
+        margin-top: 0;
+        font-size: 2.3rem;
+    }
+    .mode2-head{
+        font-size: 1.4rem;
+    }
+    .mode2-text{
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+    .mode2{
+        height: 330px;
+    }
+    #mode3-icon{
+        margin-top: 0;
+        font-size: 2.3rem;
+    }
+    .mode3-head{
+        font-size: 1.4rem;
+    }
+    .mode3-text{
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+    .mode3{
+        margin-top: 10px;
+        height: 350px;
+    }
+    .foot-panel1{
+        width: 320px;
+        height: 170px;
+        margin-top: 0;
+    }
+    .foot-panel2{
+        height: 1650px;
+    }
+    .state-tour-div2 ul li a{
+        margin-left: 0;
+    }
+    .foot3-logo p{
+       width: 250px;
+    }
+    .foot3-logo hr{
+        width: 290px;
+    }
+    .foot4-one{
+       width: 290px;
+    }
+    .foot4-two p{
+       width: 300px;
+    }
+}
